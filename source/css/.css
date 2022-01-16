@@ -1,0 +1,25 @@
+@font-face {
+  font-family: unifont;
+  src: url('fonts/unifont.woff2');
+}
+
+* {
+  background-color: cornflowerblue;
+  color: white;
+  font-family: unifont, monospace;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
